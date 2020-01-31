@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Calculadora IPVA 2020</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+    <div>
+
+        <form method="post" action="ipva.php" id="form"> <br>
+            <h1 id="titulo">CALCULADORA IPVA 2020</h1>
+
+            <section id="sec-1">
+                <label>Valor Venal</label><br>
+                <input type="text" placeholder="Digite o valor do véiculo (o calculo é feito em R$)" name="valor"> <br>
+            </section>
+            <section id="sec-2">
+                <label>Tipo Automóvel</label><br>
+                <select name="tipo">
+
+                    <option default>Selecione o veículo</option>
+                    <option value="caminhao">Caminhões</option>
+                    <option value="bus">Ônibus</option>
+                    <option value="micro-bus">Micro-Ônibus</option>
+                    <option value="caminhonte">Caminhonete</option>
+                    <option value="motocicleta">Motocicleta</option>
+                    <option value="ciclo-motor">Ciclomotor</option>
+                    <option value="motonetas">Motonetas</option>
+                    <option value="trici">Triciclos</option>
+                    <option value="quadri">Quadriciclos</option>
+                    <option value="empilha">Empiladeira</option>
+                    <option value="guind">Guindaste</option>
+                    <option value="trator">Tratores</option>
+                </select>
+            </section>
+            <br> <br>
+
+
+            <input  id="botao" type="submit" value="calcular">
+
+        </form>
+    </div>
+</body>
+
+</html>
